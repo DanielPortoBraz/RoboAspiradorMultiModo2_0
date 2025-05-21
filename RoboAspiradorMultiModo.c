@@ -46,7 +46,7 @@
 ssd1306_t ssd; // Inicializa a estrutura do display
 static volatile uint8_t x = 8, y = 8, last_x = 0, last_y = 0; // Armazena a posição atual e a anterior do robô
 
-// Armazena o modo atual. True para manual e False para automático
+// Armazena o modo atual. True para automático e False para manual
 static volatile bool current_mode = false; 
 bool direcao = 0; // Controla a direção do robô. 0: Direita; 1: Esquerda
     int passos = 0; // Conta os passos do robô, evitando que ele passe das bordas horizontais
