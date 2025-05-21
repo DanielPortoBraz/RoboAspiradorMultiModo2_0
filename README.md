@@ -1,2 +1,2 @@
-# RoboAspiradorMultiModo2_0
-Projeto de um robô aspirador de pó que conta com dois modos, o automático e o manual. Ambos controlados por requisições a um WebServer por uma página HTML.
+# RoboAspiradorMultiModo
+Este projeto apresenta um sistema embarcado capaz de monitorar e controlar um robô aspirador de pó, com dois modos automático e manual. O monitoramento é feito por um display OSSD1306 e o controle por um WebServer.
